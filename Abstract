@@ -1,0 +1,20 @@
+Retinal disorders diagnosis is of immense importance for appropriate
+treatment, i.e., accurate personalized medicine. In this work, a
+multi-resolutional feature ensemble approach is developed for retinal
+image classification using optical coherence tomography (OCT)
+images. Particularly, feature-rich pipeline using pyramidal architecture
+is designed to extract features from multi-scale inputs using
+partially-connected networks (PCNet). In addition, higher-order reflectivity
+features are extracted from the input images and are fused
+with pyramidal features for retinal disorders diagnosis. The advantage
+of the hierarchical PCNet structure is that it allowed our system
+to extract multi-scale information to help in such task, all at once
+classification of four retinal disorders. Namely, the larger input sizes
+give more global information, while the small inputs focus on local
+details. Evaluation on public OCT data sets of four classes (normal,
+diabetic macular edema (DME), choroidal neovascularization
+(CNV), and drusen) and comparison against recent networks demonstrates
+not only the advantages of the proposed architecture’s ability
+to produce feature-rich classification, but also highlights tangible
+advantages, such as network parameter reduction, enhanced feature
+learning and information flow, while reducing the risk of over fitting.
